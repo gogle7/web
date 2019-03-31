@@ -1,0 +1,29 @@
+*{
+	font-size:20px;
+}
+label{
+	font-family:Monotype Corsiva;
+}
+select{
+	font-family:Aerial;
+}
+option{
+	font-family:Aerial;
+}
+input{
+	background-color:#aabbcc;
+	height:20pt;
+	border:1pt groove #ffbbaa;
+}
+textarea{
+	background-color:#ccbbaa;
+}
+.text{
+	font:italic 150% fantasy;
+}
+table{
+	background-color:#a2b9bc;
+}
+#id1{
+	font-family:Calibri;
+}
