@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+one{
+color:red;
+font-size:20pt;
+}
+</style>
+</head>
+<body>
+<form>
+<h1>Select the Country name</h1>
+<select id="country">
+<option value="Kathmandu">Nepal</option>
+<option value="NewDelhi">India</option>
+<option value="Bejing">China</option>
+<option value="Washington D.C">USA</option>
+</select>
+</form>
+
+
+
+<input type="button" value="submit" onclick="myfunction()">
+
+<p class="one" id="demo"></p>
+<script type="text/javascript">
+function myfunction()
+{
+var x=document.getElementById("country").value;
+document.getElementById("demo").innerHTML="The capital of selected country is "+x;
+}
+</script>
+</body>
+</html>
